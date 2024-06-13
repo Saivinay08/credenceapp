@@ -4,18 +4,17 @@ import Logo from "../images/Logo.jpg";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <Link to="/" class="navbar-brand">
           <img
             alt="Logo"
             src={Logo}
-            width="30"
-            height="30"
+            width="60"
+            height="60"
             className="d-inline-block align-top"
           />
           {""}
-          CredenceCA
         </Link>
         <button
           class="navbar-toggler"
@@ -29,7 +28,7 @@ function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <Link to="/" class="nav-link active">
                 Home

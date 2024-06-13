@@ -1,15 +1,15 @@
 import React from "react";
-import Slider from "../inc/Slider.js";
 import { Link } from "react-router-dom";
 import VMC from "./inc/Vmc.js";
 import service1 from "../images/Our_services.png";
 import service2 from "../images/Support_Startups.png";
 import service3 from "../images/Advisory_Service.png";
+import Sliderpage from "../inc/Sliderpage.js";
 
 function Home() {
   return (
     <div>
-      <Slider />
+      <Sliderpage />
       <section className="section">
         <div className="container">
           <div className="row">
