@@ -1,13 +1,10 @@
 import React from "react";
-import WhiteImage from "../images/white_page.png";
+import CredenceCA from "../images/CredenceCA_5.png";
 
 function Sliderpage() {
   return (
-    <div class="container">
-      <h2 align="center">
-        CredenceCA
-        <br />
-      </h2>
+    <div class="container-md">
+      <img src={CredenceCA} class="d-block w-100" alt="..." />
     </div>
   );
 }
